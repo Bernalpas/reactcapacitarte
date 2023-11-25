@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navegacion from './componentes/Navegacion';
 import Main from './componentes/Main';
 import Formulario from './componentes/Formulario';
+import Footer from './componentes/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/formulario' element= { <Formulario /> } />
       </Routes>
 
+      <Footer />
       
     </div>
   );
